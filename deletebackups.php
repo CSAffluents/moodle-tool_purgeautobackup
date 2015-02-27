@@ -40,6 +40,10 @@ if (tool_purgeautobackup_backup::any_deletable()) {
         $title = get_string('deletetionstatus', 'tool_purgeautobackup');
         $message = '';
         $errors = array();
+
+        // We may need a bit of extra execution time and memory here.
+        @set_time_limit(HOURSECS);
+        raise_memory_limit(MEMORY_EXTRA);
         tool_purgeautobackup_backup::purge_all($errors);
         if (empty($errors)) {
             $message = $renderer->notification(get_string('deletetioncomplete', 'tool_purgeautobackup'), 'notifysuccess');
