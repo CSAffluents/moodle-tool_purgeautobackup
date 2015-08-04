@@ -24,6 +24,7 @@
 
 
 $string['backtoindex'] = 'Retour à la page principale';
+$string['cachedef_backup'] = 'Liste des sauvegardes automatiques externes';
 $string['deletebackups'] = 'Suppression des sauvegardes';
 $string['deletebackups_desc'] = 'Purger toutes les sauvegardes automatiques externes provenant des cours supprimés.';
 $string['deletebackupsconfirmation'] = 'Cela effacera toutes les sauvegardes automatiques externes provenant des cours supprimés. Êtes-vous sûr ?';

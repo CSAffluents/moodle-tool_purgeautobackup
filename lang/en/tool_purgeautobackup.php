@@ -24,6 +24,7 @@
 
 
 $string['backtoindex'] = 'Back to index';
+$string['cachedef_backup'] = 'List of external automatic backups';
 $string['deletebackups'] = 'Delete backups';
 $string['deletebackups_desc'] = 'Purge all external auto backups from deleted courses.';
 $string['deletebackupsconfirmation'] = 'This will erase all external automatic backups from deleted course. Are you sure?';
